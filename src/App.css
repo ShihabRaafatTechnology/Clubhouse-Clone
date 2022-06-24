@@ -1,0 +1,54 @@
+/* import Library*/
+@import 'antd/dist/antd.css'; 
+
+:root{
+  --textColor: rgb(65,64,66);
+  --btnBgColor: #3287b7;
+  --backgroundBody: #f2f0e4;
+  --navBar: rgba(70, 70, 70, 0.9);
+  --bgWhite: #ffffff;
+  --bgBlack: #000000;
+  --boxShadow: rgba(0,0,0,.5);
+  --btnBorderGreen: #069745;
+  --btnGreenGray: #6ff1a7;
+  --btnBgGreen: #28ae61;
+  --switchLine: #cccccc;
+  --btnBgGray: #e7e4d5;
+  --handColor: #f9bc76;
+  --more: #f4f4f4;
+  --moreColor: #aaaaaa;
+  --searchInput: #f4f4f4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-size: 1em;
+  font-family: "neutrif pro";
+}
+
+button{
+  outline: none !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+/* PhoneConfirm */
+.bgBackground{
+  background-color: var(--btnBgColor) !important;
+  border: var(--btnBgColor) !important;
+  width: 100px;
+}
+/* SwipeableBottomSheet */
+.ReactSwipeableBottomSheet--open{
+  border-radius: 1.5em 1.5em 0 0;
+}
+.react-swipeable-view-container{
+  box-shadow: none !important;
+}

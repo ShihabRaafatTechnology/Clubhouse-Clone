@@ -1,0 +1,132 @@
+.roomDetailContainer{
+    margin: -1.5em -1em;
+    background: var(--backgroundBody)
+}
+.roomDetailContainer .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 0.5em 1.5em 0.5em;
+}
+.head .profile_img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 1.2em;
+}
+.head .back{
+    color: var(--bgBlack);
+    font-size: 1em;
+}
+.head svg{
+    font-size: 1.4em;
+}
+.roomDetailCard{
+    background-color: var(--bgWhite);
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0;
+    height: 88vh;
+    overflow: auto;
+}
+.roomDetailCard h6{
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+.roomDetailCard img{
+    width: 70px;
+    border-radius: 1.7em;
+}
+.memberContainer{
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+.memberContainer .audio_icon{
+    position: absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index: 5;
+    background-color: var(--bgWhite);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px var(--bgWhite);
+    margin-bottom: 0.3em;
+}
+.memberContainer .audio_icon svg{
+    color: var(--btnBgGreen);
+}
+.memberContainer p{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--bgBlack);
+    margin-top: 0.3em;
+}
+.memberContainer span{
+    display: inline-block;
+    font-size: 1.5em;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--btnBgGreen);
+    color: var(--bgWhite);
+    margin-right: 0.2em;
+    line-height: 0.9;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    background-color: var(--bgWhite);
+}
+.footer button{
+    background-color: var(--btnBgGray);
+    border: none;
+    border-radius: 2em;
+}
+.footer button img{
+    width: 30px;
+}
+.footer > button {
+    display: flex;
+    align-items: center;
+    padding: 0.3em 1em;
+    color: var(--btnBgGreen);
+    font-weight: 500;
+}
+.footer > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer > div > button{
+    line-height: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div button:first-child{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+.footer > div > button:nth-child(2){
+    margin-right: 0.5em;
+    color: var(--handColor)
+}
+.footer > div > button:nth-child(3){
+    font-size: 1.5em;
+}

@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 400px;
+    margin: auto;
+    background-color: var(--backgroundBody);
+}
+.header a,
+.header a:hover{
+    color: var(--navBar);
+}
+.header .nav_items{
+    display: flex;
+    justify-content: space-between;
+    max-width: 220px;
+    width: 100%;
+}
+.header .nav_items img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 0.8em;
+}

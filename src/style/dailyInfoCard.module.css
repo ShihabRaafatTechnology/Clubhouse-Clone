@@ -1,0 +1,35 @@
+.dailyCard{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    border-radius: 1em;
+    background-color: #e7e4d5;
+}
+.dailyCard .event{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+    justify-content: center;
+}
+.event > span{
+    width: 20%;
+    text-align: center;
+    padding: 0.6em 0;
+}
+.event > div{
+    width: 80%;
+}
+.event span{
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 500;
+}
+.event p{
+    font-size: 0.875;
+    font-weight: 500;
+    line-height: 1;
+    width: 195px;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}

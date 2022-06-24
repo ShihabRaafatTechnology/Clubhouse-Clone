@@ -1,0 +1,117 @@
+.exploreContainer{
+    position: relative;
+    padding: 0 0.5em;
+    height: 100vh;
+    overflow: auto;
+    background-color: var(--backgroundBody);
+}
+.exploreContainer .headerSearch{
+    background-color: var(--searchInput);
+    border-radius: 0.8em;
+    border: none;
+    padding: 0.3em 1em;
+    box-shadow: none;
+    font-size: large;
+}
+.exploreContainer h6{
+    font-size: 0.975em;
+    font-weight: 500;
+    color: #bbbbbb;
+    margin: 1.5em 0 0.5em 0;
+}
+.showMore{
+    display: flex;
+    border: none;
+    border-radius: 2em;
+    padding: 0.1em 1.2em;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--more);
+    color: var(--moreColor);
+    box-shadow: 0px 2px 3px var(--switchLine);
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.showMore span{
+    font-size: 0.775em !important;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+}
+.peopleContainer{
+    background-color: var(--bgWhite);
+    margin: 0 -0.5em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    position: relative;
+}
+.peopleContainer > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.peopleContainer img{
+    width: 50px;
+    border-radius: 1.1em;
+    margin-right: 0.5em;
+}
+.peopleContainer h5{
+    color: var(--textColor);
+    font-size: 1.1em;
+    margin-bottom: 0.2em;
+}
+.peopleContainer p{
+    color: var(--textColor);
+    font-size: 0.9em;
+    margin: 0;
+    width: 173px;
+    height: fit-content;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--moreColor);
+}
+.peopleContainer .followPerson{
+    background-color: transparent;
+    border: 2px solid var(--btnBgColor);
+    border-radius: 2em;
+    color: var(--btnBgColor);
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0.1em 1.2em;
+}
+.conversationCard{
+    background-color: var(--bgWhite);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0px 2px 3px var(--switchLine);
+}
+.conversationCard h6{
+    color: var(--textColor);
+    font-size: 1em;
+    display: flex;
+    margin: 0;
+}
+.conversationCard h6 span{
+    margin-right: 0.2em;
+}
+.conversationCard p{
+    margin: 0.3em 0 0 0;
+    line-height: 1.2;
+    color: var(--switchLine);
+    font-size: 0.8em;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.head .btnBack{
+    font-size: 1.3em;
+    color: var(--boxShadw);
+}
+.head h3{
+    font-size: 1em;
+}

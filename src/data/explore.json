@@ -1,0 +1,77 @@
+{
+    "people": [
+      {
+        "title": "April Underwood",
+        "description": " CEO and Founder, local Laboratory. Co-fonder #ANajkaslkdasld",
+        "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "title": "Helena Price Hambrecht",
+        "description": "Founder @drinkaus / Twitter @helena",
+        "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "title": "James Cham",
+        "description": "@jamescham",
+        "picture": "https://images.unsplash.com/photo-1505866535066-ccebd6b2b98a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1hbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+      }
+    ],
+    "conversation": [
+      {
+        "title": "Tech",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Languages",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Places",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Identity",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Sports",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Life",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Knowledge",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Hustle",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Arts",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Entertainment",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Hanging Out",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Faith",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "Wellness",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      },
+      {
+        "title": "World Affairs",
+        "description": "Venture Capital, DTC, AI, SaaS, Angel Investing"
+      }
+    ]
+  }

@@ -1,0 +1,50 @@
+.welcomeContainer{
+    padding: 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: var(--backgroundBody);
+}
+.welcomeContainer h1{
+    font-size: 1.7em;
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+.welcomeInfo{
+    height: 253px;
+    overflow: auto;
+}
+
+.welcomeInfo p{
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--textColor)
+}
+
+.actionBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.actionBtn a:first-child{
+    background-color: var(--btnBgColor);
+    color: var(--bgWhite);
+    padding: 0.5em 2em;
+    border-radius: 1.5em;
+    font-size: 1.2em;
+}
+.actionBtn a:nth-child(2),
+.actionBtn a:nth-child(2):hover{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--btnBgColor);
+}
+.actionBtn a svg{
+    font-size: 1.3em;
+}
