@@ -7,7 +7,7 @@ import CodeConfirm from './pages/CodeConfirm';
 import AllowNotification from './pages/AllowNotification';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
-
+import Profile from './pages/Profile';
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
                <Route path="/allow_notification" element={<AllowNotification/>}/>
                <Route path="/home" element={<Home/>}/>
                <Route path="/explore" element={<Explore/>}/>
+               <Route path="/profile" element={<Profile/>}/>
             </Routes>
         </PlanLayout>
       </BrowserRouter>

@@ -12,16 +12,17 @@ function CodeConfirm(){
                 <IoIosArrowBack/>
             </Link>
             <div className="text-center">
-                <h1 style={{width: "100%", maxWidth: "200px", marginBottom:"1em"}}>enter the code we just texted you</h1>
+                <h1 style={{width: "100%", maxWidth: "500px", marginBottom:"1em"}}>Enter The Code We Just Texted You</h1>
                 <input style={{
                     width:"100%",
+                    maxWidth:"200px",
                     border:"none",
                     outline:"none",
                     textAlign:"center"
                 }} className='rounded'/>
-                <p className="mt-2">didn't receive it? <span>tap to resend.</span></p>
+                <p className="mt-2 mx-auto">didn't receive it? <span>tap to resend.</span></p>
             </div>
-            <Link to='/allow_notification' className="btn btn-primary d-flex align-items-center justify-content-center mt-3 rounded-pill bgBackground">next<CgArrowLongRightC className="m-1"/></Link>
+            <Link to='/allow_notification' className="btn btn-primary d-flex align-items-center justify-content-center mt-3 rounded-pill bgBackground">Next<CgArrowLongRightC className="m-1"/></Link>
         </div>
    )
 }

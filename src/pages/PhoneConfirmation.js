@@ -15,7 +15,7 @@ function PhoneConfirmation(){
             <h1>Enter your phone</h1>
             <PhoneNumber international defaultCountry='EG' value={value} onChange={setValue}></PhoneNumber>
             <p className='mt-2'>by entering your number, you're agreeing to our <span>terms of services and privacy policy </span>thanks!</p>
-            <Link to='/code_confirm' className="btn btn-primary d-flex align-items-center justify-content-center mt-3 rounded-pill bgBackground">next<CgArrowLongRightC className="m-1"/></Link>
+            <Link to='/code_confirm' className="btn btn-primary d-flex align-items-center justify-content-center mt-3 rounded-pill bgBackground">Next<CgArrowLongRightC className="m-1"/></Link>
         </div>
     )
 }

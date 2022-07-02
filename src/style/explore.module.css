@@ -107,11 +107,12 @@
 .head{
     display: flex;
     align-items: center;
+    margin-bottom: 0.5em;
 }
 .head .btnBack{
     font-size: 1.3em;
     color: var(--boxShadw);
 }
 .head h3{
-    font-size: 1em;
+    font-size: 1.2em;
 }

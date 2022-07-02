@@ -10,13 +10,13 @@ function Header(){
                 <BiSearch className='fs-3 mt-2 ml-2'/>
             </Link>
             <div className={style.nav_items}>
-                <Link to='/invite_friends'>
+                <Link to=''>
                     <BiEnvelope className='fs-3 mt-2 ml-2'/>
                 </Link>
-                <Link to='/upcoming'>
+                <Link to=''>
                     <BiCalendar className='fs-3 mt-2 ml-2'/>
                 </Link>
-                <Link to='/activity'>
+                <Link to=''>
                     <BiBell className='fs-3 mt-2 ml-2'/>
                 </Link>
                 <Link to='/profile'>
